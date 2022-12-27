@@ -22,7 +22,7 @@ while True:
         option2 = dic.get("option2", "")
         option3 = dic.get("option3", "")
         option4 = dic.get("option4", "")
-        q = f"Be Absolutely correct. Answer the following: {question}? 1) {option1}, 2) {option2}, 3) {option3}, 4) {option4}. Please reply with only, 1 (or) 2 (or) 3 (or) 4"
+        q = f"Be Absolutely correct, reply with 5) if you are unsure. Answer the following: {question}? 1) {option1}, 2) {option2}, 3) {option3}, 4) {option4}. Please reply with only, 1 (or) 2 (or) 3 (or) 4"
         ans = ask(q)
         ans = ans.replace(" ", "")
         el = map_dic.get(ans, None)
